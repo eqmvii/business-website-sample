@@ -1,0 +1,243 @@
+body {
+    font: 400 15px 'Josefin Sans', 'Comic Sans MS', sans-serif;
+    line-height: 1.7;
+}
+
+.navbar, #page-footer h2 {
+    font-family: 'Lato', 'Comic Sans MS', sans-serif;
+}
+
+/* Default bootstrap overrides and add-ons */
+
+#my-splash-image {
+    background-image: url(./img/bgsplash.jpg);
+    height: 650px;
+    background-color: rgb(50, 51, 48);
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+
+.jumbotron {
+    background-color: rgb(240, 219, 79);
+    color: rgb(50, 51, 48);
+    padding: 100px 25px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.bg-grey {
+    background-color: #eee;
+}
+
+.bg-yellow {
+    background-color: rgb(240, 219, 79) !important;
+    color: rgb(50, 51, 48);
+}
+
+.container-fluid {
+    padding: 60px 50px;
+}
+
+.container {
+    padding: 60px 50px;
+}
+
+img {
+    border: 1px solid rgb(50, 51, 48) !important;
+}
+
+.mycon {
+    font-size: 180px;
+    color: rgb(240, 219, 79);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.mycon-medium {
+    font-size: 80px;
+    color: rgb(240, 219, 79);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.mycon-little {
+    font-size: 45px;
+    color: rgb(240, 219, 79);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.lightning-glyph {
+    font-size: 34px;
+    color: rgb(240, 219, 79);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.hd-icon {
+    font-size: 34px;
+}
+
+.thumbnail {
+    padding: 15px 10px 15px 10px;
+    border: none;
+    border-radius: 0;
+}
+
+.thumbnail img {
+    width: 100%;
+    max-width: 400px;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+.panel {
+    border: 1px solid rgb(240, 219, 79);
+    transition: box-shadow 0.4s;
+}
+
+.panel:hover {
+    box-shadow: 5px 0px 30px rgba(0,0,0, .2);
+}
+
+#page-footer h3 {
+    padding-left: 2px;
+}
+
+.footer-list {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+ul.footer-list a {
+    color: rgb(50, 51, 48);
+    padding: 2px;
+    font-size: 14px;
+    font-weight: 550;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+hr {
+    border: 0;
+    height: 0;
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid rgba(50, 51, 48, 0.3);
+}
+
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+}
+
+/* Carousel styles */
+
+.carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: rgb(240, 219, 79);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+
+.carousel-indicators li {
+    border-color: rgb(50, 51, 48);
+}
+
+.carousel-indicators li.active {
+    background-color: rgb(240, 219, 79);
+}
+
+.item {
+    height: 150px;
+      
+}
+
+.item h3 {
+    font-style: italic;  
+}
+
+
+/* Navbar styles */
+
+.navbar {
+    margin-bottom: 20px;    
+    z-index: 9999;
+    border: 0;
+    font-size: 14px;
+    line-height: 1.42857143 !important;
+    letter-spacing: 3px;
+    border-radius: 0;
+    background-color: rgb(240, 219, 79);
+
+}
+
+.nav-custom {
+    background-color: rgb(240, 219, 79) !important;
+    height: 18px;
+    padding-bottom: 50px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    font-size: 18px;
+    font-weight: 550;
+}
+
+
+.navbar-nav li a:hover .navbar-nav li.active a {
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    background-color: rgb(240, 219, 79) !important;
+    }
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+.nav-favicon {
+    height: 30px;
+    width: 30px;
+    border: 1px solid rgb(50, 51, 48);
+
+}
+
+/* Social media button icons */ 
+
+.fa {
+    padding: 7px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin-left: 8px;
+    margin-top: 14px;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+/* Linkedin */
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+/* Github */
+.fa-github {
+    background: #000;
+    color: white;
+}
